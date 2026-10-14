@@ -1,0 +1,134 @@
+{
+  "tournament_pdf_pages": 53,
+  "tournament_source_entries": 975,
+  "unique_tournament_source_labels": 975,
+  "core_source_entries": 2494,
+  "combined_source_entries": 3469,
+  "notes": 422,
+  "links_checked": 18227,
+  "tournament_prose_entries_compared": 896,
+  "core_notes_preserved": 104,
+  "reference_corrections": [
+    {
+      "from": "408.4.c.3",
+      "document": "cr",
+      "original": "469.1.a",
+      "linked_entry": "473.1.a",
+      "reason": "The source references an absent Final Point entry."
+    },
+    {
+      "from": "412.1",
+      "document": "tr",
+      "original": "204.4",
+      "linked_entry": "204.5",
+      "reason": "The source says floor judge but points to Head Judge."
+    },
+    {
+      "from": "502.12",
+      "document": "cr",
+      "original": "484.8.e",
+      "linked_entry": "491.8.f",
+      "reason": "The source references an absent team private-information entry."
+    },
+    {
+      "from": "602.4.a.8.f",
+      "document": "tr",
+      "original": "602.4.8.c",
+      "linked_entry": "602.4.a.8.c",
+      "reason": "The source omits the Sealed subsection letter in its step range."
+    },
+    {
+      "from": "702.6.b.1",
+      "document": "tr",
+      "original": "702.15",
+      "linked_entry": "702.16",
+      "reason": "The source says General Error but points to forgetting to ready."
+    },
+    {
+      "from": "702.8.b.1.b",
+      "document": "tr",
+      "original": "702.15",
+      "linked_entry": "702.16",
+      "reason": "The source says General Error but points to forgetting to ready."
+    }
+  ],
+  "errors": [],
+  "unchanged_rule_and_concept_notes_during_index_update": 412,
+  "index_organization": {
+    "core_notes_indexed": 272,
+    "tournament_notes_indexed": 140,
+    "game_action_notes_under_actions": 33,
+    "core_sections": {
+      "Principles and foundations": 6,
+      "Deck construction and setup": 10,
+      "Spaces and zones": 16,
+      "Cards and game objects": 29,
+      "Ownership, control, and information": 12,
+      "Resources and costs": 14,
+      "Turns and timing": 28,
+      "Chains, showdowns, and cleanups": 10,
+      "Playing cards and making choices": 9,
+      "Abilities and effects": 26,
+      "Actions": 45,
+      "Combat and modifiers": 17,
+      "Scoring, winning, and modes": 14,
+      "Special terms": 6,
+      "Keywords": 30
+    },
+    "tournament_sections": {
+      "Principles and eligibility": 3,
+      "Competition types, structures, and levels": 18,
+      "People and responsibilities": 7,
+      "Decks, registration, and equipment": 10,
+      "Matches and tournament procedures": 12,
+      "Tracking, notes, and presentation": 6,
+      "Communication and gameplay decisions": 12,
+      "Competition formats and deck building": 12,
+      "Judging, penalties, and remedies": 11,
+      "Game play errors": 17,
+      "Tournament errors": 10,
+      "Unsporting conduct and disciplinary rules": 22
+    },
+    "indexes": [
+      "General Index",
+      "Core Rules Index",
+      "Tournament Rules Index",
+      "Concept Index"
+    ],
+    "visual_guides": [
+      {
+        "note": "Turn Phases Flowchart",
+        "diagrams": 1,
+        "quick_link_notes": 16
+      },
+      {
+        "note": "Trigger Timing Flowchart",
+        "diagrams": 1,
+        "quick_link_notes": 24
+      }
+    ]
+  },
+  "flowcharts": {
+    "parser": "Mermaid",
+    "diagrams": [
+      {
+        "note": "Turn Phases Flowchart",
+        "heading": "Turn sequence",
+        "valid": true,
+        "diagram_type": "flowchart-v2",
+        "sha256": "eec64769d23932f2a2748d8a04677b9a91f4ba6ea4127ad09fb0f8a0a6266b90"
+      },
+      {
+        "note": "Trigger Timing Flowchart",
+        "heading": "Trigger condition check",
+        "valid": true,
+        "diagram_type": "flowchart-v2",
+        "sha256": "f2e98017f9381e586bbe1c55c75e6faf3c814ec2faf070deb2fddfd00c668667"
+      }
+    ],
+    "errors": []
+  },
+  "flowchart_quick_link_notes": 33,
+  "rule_and_concept_notes_preserved_during_flowchart_integration": 412,
+  "rule_and_concept_notes_preserved_during_flowchart_split": 412
+}

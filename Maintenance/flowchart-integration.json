@@ -1,0 +1,1288 @@
+{
+  "rules_document": "Core Rules",
+  "source_version": "2026-10-09",
+  "approved_by_user": true,
+  "diagrams": [
+    {
+      "heading": "Turn sequence",
+      "sha256": "eec64769d23932f2a2748d8a04677b9a91f4ba6ea4127ad09fb0f8a0a6266b90",
+      "source_rules": [
+        "315",
+        "316",
+        "317",
+        "334",
+        "335"
+      ],
+      "note": "Turn Phases Flowchart",
+      "path": "Flowcharts/Turn Phases Flowchart.md"
+    },
+    {
+      "heading": "Trigger condition check",
+      "sha256": "f2e98017f9381e586bbe1c55c75e6faf3c814ec2faf070deb2fddfd00c668667",
+      "source_rules": [
+        "367",
+        "383.2.a.1",
+        "383.2.c",
+        "383.3",
+        "383.3.d",
+        "334",
+        "337",
+        "340"
+      ],
+      "note": "Trigger Timing Flowchart",
+      "path": "Flowcharts/Trigger Timing Flowchart.md"
+    },
+    {
+      "note": "Playing a Card Flowchart",
+      "path": "Flowcharts/Playing a Card Flowchart.md",
+      "heading": "Playing a card",
+      "sha256": "3f16c7de368c724e462c0523f9693a6763dd1c7189abc3323ac87c187b0bf370",
+      "source_rules": [
+        "334",
+        "337",
+        "340",
+        "354",
+        "355",
+        "356",
+        "357",
+        "358",
+        "359"
+      ]
+    },
+    {
+      "note": "Playing or Activating Abilities Flowchart",
+      "path": "Flowcharts/Playing or Activating Abilities Flowchart.md",
+      "heading": "Playing or activating abilities",
+      "sha256": "c37b5ada8335e715ecc4d0c80433d83d2269c8a50a2d3e809d14fb9201747a11",
+      "source_rules": [
+        "334",
+        "337",
+        "340",
+        "383.3.a",
+        "383.3.b",
+        "400",
+        "401",
+        "402",
+        "403",
+        "404",
+        "405",
+        "406",
+        "407"
+      ]
+    },
+    {
+      "note": "Combat Flowchart",
+      "path": "Flowcharts/Combat Flowchart.md",
+      "heading": "Combat sequence",
+      "sha256": "7b511c2a7773beb034dff7b306b8642022f3589c995d023dbbd86afc5fab626f",
+      "source_rules": [
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "334",
+        "340",
+        "383.2.c",
+        "383.3.d",
+        "383.4.e",
+        "383.4.f",
+        "462",
+        "463",
+        "466",
+        "467",
+        "468",
+        "807",
+        "808",
+        "809",
+        "814",
+        "815",
+        "819",
+        "822",
+        "823",
+        "826",
+        "831",
+        "424"
+      ]
+    },
+    {
+      "note": "Showdown Flowchart",
+      "path": "Flowcharts/Showdown Flowchart.md",
+      "heading": "Showdown loop",
+      "sha256": "98d762b1ad3d3018ce0eb0d5f33d6a4ea4f010c85913101e4de39266791119a6",
+      "source_rules": [
+        "319",
+        "320",
+        "323.11",
+        "323.13",
+        "334",
+        "340",
+        "344",
+        "345",
+        "346",
+        "347",
+        "348",
+        "466.2.c.1",
+        "471",
+        "806",
+        "813"
+      ]
+    },
+    {
+      "note": "Game Setup Flowchart",
+      "path": "Flowcharts/Game Setup Flowchart.md",
+      "heading": "Game setup sequence",
+      "sha256": "872fc073c1f9129a39204f0dc1e4483cd6ef4064856081d3cc9d504a51f89672",
+      "source_rules": [
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "417",
+        "487",
+        "488",
+        "489",
+        "490",
+        "491"
+      ],
+      "tournament_source_rules": [
+        "403",
+        "406",
+        "407",
+        "603.7"
+      ]
+    }
+  ],
+  "quick_links_added": [
+    {
+      "note": "Ability",
+      "original_sha256": "755b675d08c531e411de0a700aa06f360620341966a6a0e6b3462bdd75231224",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Additional Turns",
+      "original_sha256": "14d60ee08f793561b1b4d398b64f2617a1e139e5fc663c4df418d34dfed5c1c8",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Attack Trigger",
+      "original_sha256": "52e5ce61c85039986c1b46f1916209f2bea0afa2f3c451a3ecbe876dd213cf99",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Awaken Phase",
+      "original_sha256": "7b560e413424896a3967012b9f7b4ee19a44379d35aa43f42b0379aeb05e759d",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Beginning Phase",
+      "original_sha256": "714ad7579998421b7db600f34526365866b7c3b2c9bf39a136d021369ea07195",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Beginning Step",
+      "original_sha256": "c81ed64e8380de04ee34767063f4fc9f989af082e2e8b2b2402a564ad9393471",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Chain",
+      "original_sha256": "10f8503aa95f1e987464717eb65498718328b88a1f6a94992ac0ae6b1a520805",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Channel Phase",
+      "original_sha256": "2a1389bdd17ecbaa9794e1561380050f350adb7e9539f0d1d8573e931ba597c3",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Cleanups",
+      "original_sha256": "13e5d1aa70da8acb427218f5803ceceb469389daee9ffad590d6429521b5f317",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Conquer Effect",
+      "original_sha256": "1c0f827b8a2dbb45ae0c900ab62952e9ac348584732eed25a3ea34d5150eb9fd",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Defend Trigger",
+      "original_sha256": "87d23768bcc0679d2a0cf8110d945915408da980e669a8e69978eefe62140a5d",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Delayed Trigger",
+      "original_sha256": "6fa03ba968d98a68cff9768ad7c8c6bc9bd1700417a4aa593335d031b1e438e9",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Draw Phase",
+      "original_sha256": "1bfcb2d59b03fff13cbe6a6bf0dc38fbc7dc5f7ad066d28683046d633afc1dd1",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Ending Phase",
+      "original_sha256": "3ce8abb8115a3ad45ee5563710ea0d1a0d5c838b9da6f08c4caf5efb3ecd1e11",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Ending Step",
+      "original_sha256": "502a35e65689e5b4ef026ef003b1361f0d74a0600c491a948531a3e8cb642463",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Expiration Step",
+      "original_sha256": "afbe43bb003e736f8827e144ab8cc23219626e51cd245d19384521ee919de381",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "HOT FEPR",
+      "original_sha256": "6a252c3338cab8fc79e0c6f93d8f7861129391eb35a1d496d280852f8900b927",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Handling Tasks and Resolving Chain Items",
+      "original_sha256": "58cc422ebd18920cc6e26afa4628a3650f151ed6bc5ff4f3f41419f96ff25fbc",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Hold Effect",
+      "original_sha256": "102b76d281e95cb3bd6fba3060a5c6d617d9cb9e33325a3d93b82b7115021439",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Main Phase",
+      "original_sha256": "080bf6855915bcc3d6f5a3b05b21854c7a9ef7e08ab9a5e842525f5580637142",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Outstanding Task",
+      "original_sha256": "c3f5ae3759e82b446d67614f821dca8918e97f52988a0034d53708572d200e5f",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Pending Chain Item",
+      "original_sha256": "46c9ba0c62a286290cfa5449867a50142f03d33608886816d4b542eee909f0ad",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Play Effect",
+      "original_sha256": "831af4d8cf78fafaa48c79084ce8f9dae73149f35409ccdb0c23685d2804dcd9",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Playing the Game",
+      "original_sha256": "59641a394555b7f327efaf5959fad2c5ed29b1c4b9f6c00aa6361fba4cfca37c",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Replacement Effect",
+      "original_sha256": "e8c1137d6c139db04614b6d08713ea4cea977e2672ad2f44fd5e764b7fcf1cfb",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Scoring Step",
+      "original_sha256": "0aaf3006df3f53827562bd3211343ad61ae1f4267a4abcb8b5b22fbccca7951d",
+      "sections": [
+        "Turn sequence",
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart",
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Start of Turn",
+      "original_sha256": "2328ed1b25fc15e9ad6b5d11c4deb08b4708e3291f5da09afeea57e31ace31d0",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Targeting Effect",
+      "original_sha256": "23dea226f8893cee19b854f8f8aa08cc6377094093d74b61da8cf594d8ba9697",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Task",
+      "original_sha256": "e2852e11cbe173fa3ff30b83eea86b56753a9c3da50297356533b894b6efff98",
+      "sections": [
+        null,
+        "Trigger condition check"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart"
+      ]
+    },
+    {
+      "note": "Triggered Ability",
+      "original_sha256": "5e5f89401880c4a0283d9bd5754fc87b9b103f227b10fa9bd2c2eee887ab5505",
+      "sections": [
+        null,
+        "Trigger condition check",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Trigger Timing Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Turn",
+      "original_sha256": "daea39f5be4120d7f54028dbc7c018dbcae5271138fbe08882bcf87d613004dc",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Turn Phases",
+      "original_sha256": "f0299a1746e755643b659f6295e49d0351d85e0b935a586c2313590e3a1c243f",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Turn Player",
+      "original_sha256": "41b102677b9c7911f8576312a38ad667c76b804ea46610fcd3558739d7ecd633",
+      "sections": [
+        "Turn sequence",
+        null
+      ],
+      "flowcharts": [
+        "Turn Phases Flowchart"
+      ]
+    },
+    {
+      "note": "Activated Ability",
+      "original_sha256": "a80ce9708a3432e875883144e8811f2eb55c653f54f9e5ef37dedaf6ef6ed85a",
+      "sections": [
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Add",
+      "original_sha256": "73cbe5f1bd9d75ab29960d76ec8b6f40b0f7c8c4c3fef5e42de2f8de71a088f0",
+      "sections": [
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Card Cost",
+      "original_sha256": "703905634d5564ac22f5bafeced9c62e2e90588baedbe7ff2e72538b05c8e3cb",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Costs",
+      "original_sha256": "8e9ac4f609ec52287b608b33477d2b8d29f824a2e400374a92ce0b80cde21774",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Costs within Instructions",
+      "original_sha256": "4966a21de1a39e697d9fe79f2c21413fbf047e536126a66f16fde06efe3175ee",
+      "sections": [
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Finalized Chain Item",
+      "original_sha256": "563a7c31cbf68b36ea6e13f16c393d2b71dbb601bf575702ee8fe90c7d17af08",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Gear",
+      "original_sha256": "7f89df81efeb0a0078ce0d06c1c4a56870d626338e45155b739fa4da3639e552",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Pay",
+      "original_sha256": "a50829693565d82d1f7c09c24630a399048c5892bc34d6d94961013d2b5ec59f",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Play",
+      "original_sha256": "fc06e11db9022f95198b684728b857dcc3079a2ad75642056ca371b06730c38e",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Playing Cards",
+      "original_sha256": "5629256d116858fa2c3c83a223fa0d4ea40287f5a2a06d50ec500cba2195a52a",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Playing or Activating an Ability",
+      "original_sha256": "4c6d39bf61099164b5c122baf9a4e1a6b51ee5529cb0e0a88c8866bf37ee47a0",
+      "sections": [
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Priority",
+      "original_sha256": "be0183e4e8e876b7ec82992df7d0ede780181d041b14b9c919ee3f65d09efde9",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Priority and Focus",
+      "original_sha256": "fbae44e85438caeacff048bf26c68b785ec69457f482716e52758bc7d1da98a6",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Process of Playing a Card",
+      "original_sha256": "a487a9582666b1a96d8703846baddac172aa6e9bdfc0326b0bb7495142569b93",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Reaction (Keyword)",
+      "original_sha256": "c944848ce2b4cb9fdf4a24055842bf0380cee0f939401cd765d23efab0a8987a",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities",
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart",
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Spell",
+      "original_sha256": "c2497ab674231c10a48134a941c468c2abce0e103d6f57af8750e315b14752e1",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Targeting",
+      "original_sha256": "bb8194ac711a4492ce88e6259ee2c3d20c0c08ba15e078ba9be160b88b664c3d",
+      "sections": [
+        "Playing a card",
+        "Playing or activating abilities"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart",
+        "Playing or Activating Abilities Flowchart"
+      ]
+    },
+    {
+      "note": "Unit",
+      "original_sha256": "eace30d0ec773511babf745fdc7bd45643b18d507e2decf2ab26c185975b50f8",
+      "sections": [
+        "Playing a card"
+      ],
+      "flowcharts": [
+        "Playing a Card Flowchart"
+      ]
+    },
+    {
+      "note": "Action (Keyword)",
+      "original_sha256": "d4785cd121aa15a5acaeebb674ea877d01af063dac9d281dc8e369a0183690e9",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Ambush",
+      "original_sha256": "91c1e3b1afcda0fa1aa23fe40c14a83799f380eeabf2226faa3997c9e396dcf1",
+      "sections": [
+        "Keyword timing side notes",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Assault",
+      "original_sha256": "055e3098c14393019f14164fd9cabeb42ae92511c42d9b3f029c86a80a873234",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Attacker",
+      "original_sha256": "599aaf4974f15e22908aa611df275444c1236ae9920561437eac5b7fbd34cefc",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Backline",
+      "original_sha256": "6d125447f84eb962118b9cc40d4e578ea0a661870c7342abff9437a90a9949bd",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Chains and Showdowns",
+      "original_sha256": "44b5aab69b56ebabf550f8c9173cffd8120939e2d7603c34f822a552b42e4673",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Combat",
+      "original_sha256": "df13985ed94a9e8c614ebf1504e1057d61b3694ac71f553e2fdfc9c536cd671e",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Combat Procedure",
+      "original_sha256": "04b2a60d8589654f500b8d17e54ad7c634598ce5e574397eb222c94a509467dd",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Conquer",
+      "original_sha256": "7c59d4b7f85696065cd493f9be9298507321b7ae4882550c975520d3b678d63c",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Contested",
+      "original_sha256": "69742c38c6746cf5e61f358a268d2d53c80665402aab7960d26da23ec3290f33",
+      "sections": [
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Deathknell",
+      "original_sha256": "4c07cf276185a86c3de1d9456cdd7d6584c7e4769887fdc0a435808b698ec76a",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Defender",
+      "original_sha256": "802161ed5514ba2656556a3420efa629424fafe146731cd6533422fa08acae91",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Deflect",
+      "original_sha256": "0c8e627e10d9064777ad4897d438a450de5a14bf95657ca3b1d8a58421db83bf",
+      "sections": [
+        "Keyword timing side notes",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Disarm",
+      "original_sha256": "056ade9045edb53c4c423c43496a26e5b8a7df805789c1190ebc5ed986850fbe",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Focus",
+      "original_sha256": "c373d12329c64fa0d892f074b620d162867fa0db8eff52c824fd705f7435b20c",
+      "sections": [
+        "Combat sequence",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Hunt",
+      "original_sha256": "ba6f78c09a8f4f263550aa2997505aef695aa3ec5437185addeee77b969384f9",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "In Combat",
+      "original_sha256": "808726ca2e835b8c498cfec556a59c185af34016cb316595a86afcfc58b138fe",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Quick-Draw",
+      "original_sha256": "389dadf9a71dad78ec0388808388b4cb226d3d64c0e5ca7cde3dace9685cbabf",
+      "sections": [
+        "Keyword timing side notes",
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Combat Flowchart",
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Recalls",
+      "original_sha256": "414116eeab6124647d4464ddcb48ed74c588c19344b35392aa999aed922145b6",
+      "sections": [
+        "Combat sequence"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Shield",
+      "original_sha256": "b339cad581864eb1d60a1b00d3bbbdbc332d82ca4d00711281be38f00fdf0de1",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Showdown Closed State",
+      "original_sha256": "f2cbed1b3c0e873f5e3e3e1e9722b66a7900609d066b6022e2a8f44e4631e182",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Showdown Open State",
+      "original_sha256": "ace3a84ae1d4d4f532ece1e203e00263e3c9cc158a9daa98d7b58aeb943d4885",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Showdown State",
+      "original_sha256": "04e14c783b9c3e520094781b3e41457ce25ccc13e1c5220cebe17d6c4c16a011",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Showdowns",
+      "original_sha256": "29e2e7fafde7a84dc660c9e0ef9427438b765a0aad53555cd25dd03e22d6076c",
+      "sections": [
+        "Showdown loop"
+      ],
+      "flowcharts": [
+        "Showdown Flowchart"
+      ]
+    },
+    {
+      "note": "Stun",
+      "original_sha256": "def1537990748667c89ce34e47c8ec8263f5ed57de772c70a05e1cc8e9fa90ca",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "Tank",
+      "original_sha256": "0389a1997dcb7e6929697b348a05aba857a1664084b68f5febb3026f90c48b01",
+      "sections": [
+        "Keyword timing side notes"
+      ],
+      "flowcharts": [
+        "Combat Flowchart"
+      ]
+    },
+    {
+      "note": "1v1 (Duel)",
+      "original_sha256": "b271c24d191450e4709cb4acf34a74a901e198cfdb8842f42e8c3b8e92053471",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "1v1 (Match)",
+      "original_sha256": "97db35582df4b223009ba545e0dad89cd459bd66966f07846b4025a4a948109f",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "2v2 (Magma Chamber)",
+      "original_sha256": "6ea7143fd45e53a9ab37dc5d8ee25f273831b4893c6941a94c22706ae6270cf9",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "2v2 (Tournament)",
+      "original_sha256": "ceb6c0c7032816dd228f6be8159560343629c4de2868ff17fe5c45aa63f26e9e",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Battlefield Zone",
+      "original_sha256": "0651ff1a3a89e200552ecd20a729d10610f704a0f8d623a3338fe2bb0601c63e",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Champion Legend",
+      "original_sha256": "7e32b3ce2a51da284600faaadde157a7cc68cd9c0ceef7955f418d9cb5876239",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Chosen Champion",
+      "original_sha256": "dc21ad4168a795e8f25b61eebc58aaa6428515cac803feec288714c9c8a7fb8a",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "FFA3 (Skirmish)",
+      "original_sha256": "02e943b40f63cd2bbdb970922a9c60596ef17e00fa592f7e9eaff5f8b94ceb27",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "FFA4 (War)",
+      "original_sha256": "f50df9eb9e5a21f0501fcd1967e6c5ec43b9da41cfebc5195eb601d83e6df026",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Main Deck",
+      "original_sha256": "5627eb53bfc6fb04205873a6e9f0a36af5ba7911c83f669577f26517e84eb38d",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Modes of Play",
+      "original_sha256": "bd424f00207c56cce02c955ff1000b09603723d18af2fc3854dbac97524761a7",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Play First Rule",
+      "original_sha256": "0e094f6581f4172d9a81018c40914b95e4f6d8d1e5a6974ad1e7269a53bcefb0",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Rune Deck",
+      "original_sha256": "03bce5625e9a2ba075acc941210190462806f24ddf24c4d966c7351e8c48eb78",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Sanctioned Modes",
+      "original_sha256": "73b7bccbb7cb777211ca68135c16e16b155799c8f7c369c07b813528632c0a0b",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Setup",
+      "original_sha256": "d1dac33eda50ddaa85f953501dda2c00abd0967ff187d807f040b4f1499b0600",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Setup Process",
+      "original_sha256": "bace7780b5f10c0c03944a3ff71d737b67e9730877adb0b630783d28da149a04",
+      "sections": [
+        "Game setup sequence"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Shuffling",
+      "original_sha256": "35159d692a9d3252f5b25e919c2fbddb89c63c552f76eb92ec2d939ae2de53e5",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Sideboard",
+      "original_sha256": "98a8fc5f7732b8a0c1511367268e277ee5d072bcea733c7c4b83315c24f0bef7",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Start of Game Procedure",
+      "original_sha256": "8099eb4edeb9d104cc26ab05f07ed209c6cb03b7a3960f9307f1129b15201d38",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Start of Match Procedure",
+      "original_sha256": "e1f88c67cb601d9f59bcdfe831868261782aa718cadda8a3aeeec762cf403b9e",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    },
+    {
+      "note": "Tournament Modes",
+      "original_sha256": "a8df334d100227b4a205857f17b102294e33bb85bd6d1b6d9e9b8d67d97d9513",
+      "sections": [
+        "Tournament adjustments"
+      ],
+      "flowcharts": [
+        "Game Setup Flowchart"
+      ]
+    }
+  ],
+  "indexes_updated": [
+    "General Index",
+    "Core Rules Index",
+    "Concept Index",
+    "Start Here"
+  ],
+  "notes": [
+    "Turn Phases Flowchart",
+    "Trigger Timing Flowchart",
+    "Playing a Card Flowchart",
+    "Playing or Activating Abilities Flowchart",
+    "Combat Flowchart",
+    "Showdown Flowchart",
+    "Game Setup Flowchart"
+  ]
+}

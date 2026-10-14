@@ -1,0 +1,312 @@
+{
+  "note": "Quick Reference/Infraction Quick Reference.md",
+  "pdf": "Quick Reference/Infraction Quick Reference.pdf",
+  "source_version": "2026-10-09",
+  "infraction_rows": 32,
+  "disciplinary_categories": 13,
+  "source_rules": [
+    "702.10",
+    "702.11",
+    "702.12",
+    "702.13",
+    "702.14",
+    "702.15",
+    "702.16",
+    "702.17",
+    "702.2",
+    "702.3",
+    "702.4",
+    "702.5",
+    "702.6",
+    "702.7",
+    "702.8",
+    "702.9",
+    "703.10",
+    "703.2",
+    "703.3",
+    "703.4",
+    "703.5",
+    "703.6",
+    "703.7",
+    "703.8",
+    "703.9",
+    "704.2",
+    "704.3",
+    "704.4",
+    "704.5",
+    "704.6",
+    "704.7",
+    "704.8"
+  ],
+  "quick_links_added": [
+    {
+      "note": "Missed Trigger",
+      "original_sha256": "3c3d8713de3c09d0bac48f3918052ccf6bd7e7ee7083a85f77e19baca8411ffe",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Forgetting to Score a Point",
+      "original_sha256": "2e6ed0844eafcdae7c1352245c5c242f28feec6686397401bfe8fb4792f7fb9b",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Forgetting to Draw Cards",
+      "original_sha256": "4f6c3911b8d70396bbf2ed9cea743a493e026781febe176bbe96b8f4ad5aa13c",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Looking at Extra Cards",
+      "original_sha256": "306cd8526b6e1b1ce9ab33987d9ca582e9b6def84c02f2124140930329cf9c46",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Channeling Too Many Runes",
+      "original_sha256": "db89efa40165eb9261e5f2308460e73d462c5d154fb87f23e3b0cfbc4cfd8b0d",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Channeling Too Few Runes",
+      "original_sha256": "ddf170e8f499bbf8ba264d2d06ed62bc2d827a4ee8bc669a7b3d73fd2c45848a",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Overpayment for Cost",
+      "original_sha256": "ba5f2cf68debaf8cea9354c582beab55a9aaa6c5723f78502d7933117a4a6698",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Mispayment for Cost",
+      "original_sha256": "b60e04801a48526340d89fdc1c6efdcd4f7bed1b0a687fbbe40ebab4fff2c1a4",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Looking at Secret Information",
+      "original_sha256": "667b0c5acb6ec699b8ceab71e1a0179af27247b9ddfa855a5531363b5e68142f",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Looking at Opponent Private Information",
+      "original_sha256": "75d57fbfb022c535cdfe05f154db23088444bd44f52c3f830c815d3c05cc5610",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Drawing Extra Cards",
+      "original_sha256": "95180940db4f1d58dfcc84da7c6edd0e922a228979b543db323194795fee1665",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Facedown Card Error",
+      "original_sha256": "ff41faf155ef47d64c4cb270b2addfc8a52c75f8f0cecac21f09d921adb1f0b4",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Mulligan Procedure Error",
+      "original_sha256": "6f0b92660dd3d6d6656393a9ce3729b0ff71050763744dfe017bb805f11706f0",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Forgetting to Ready During the Awaken Phase",
+      "original_sha256": "e63243a9259ee18f4ab024fbc477c7b3b4ba6e26b8880c189fd9cdd16dd3bdac",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "General Error",
+      "original_sha256": "0aca820ace093a5d0bd899f53a94fb5ddbd324bda634dd1036d74e5475384d2f",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Failure to Maintain Game State",
+      "original_sha256": "1cb419a124d3950ca0d227927278a81f284c18a6ee93c27b45b52e6b3f16a451",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Slow Play",
+      "original_sha256": "76d8c4ab5d62d041fe573bf625959b58733d2590adf0f21c2adf64079839f945",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Decklist Error",
+      "original_sha256": "284f82e447587f64675d1549e96f3cc3759b288dbc7962d36e93aa9e18bb710e",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Deck Presentation Error",
+      "original_sha256": "984cdf20c98bcf2b2af1bf27b7723c0875a4e40810cf353ac191a2504ddb9325",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Communication Violation",
+      "original_sha256": "f2b9b4025dfd1ddf54abb30afbe75c2b71cfd55f09aaf0f535ae98cd4e140730",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Marked Cards (Penalty)",
+      "original_sha256": "82640a2caefda7ae9e23978e8e9b52ccd5ee87d4b5d01f26d4f3fd2f18c6e37d",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Insufficient Randomization",
+      "original_sha256": "b824aec1d183a8ef79a68cb6ff443386802dc5495a6b067801d20b37e48195bc",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Late to Match",
+      "original_sha256": "10c351c3623c237a8e0861a3e024de9fcc3964d1914820bb6c32b312f136b50b",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Outside Assistance",
+      "original_sha256": "9cb401d5a5359ebe05b5b5fdea0aefebb76368d543b5695bd6306a56e7dbb780",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Improperly Determining a Winner",
+      "original_sha256": "ca80ddca40329523b34cc50303dcf506be79d33da6f540c3869f9f6f5b5220fa",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Unsporting Minor",
+      "original_sha256": "5a05a13b5f45e14eb8a5e97fa8daec3b4dd8cb3d3e744acde7312a0cd866d382",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Unsporting Major",
+      "original_sha256": "5b8dbc9d7edf37a5d049220750b9f13b7b2bade538d040f6315db4c238410ce5",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Angle Shooting",
+      "original_sha256": "d9050286af7a0c7bfe8e7bccb73356f25fc944eef14bbd2326175a4158d427aa",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Bribery",
+      "original_sha256": "939235eeb276671445788952853b2912a1545e556bc77740fe3547ee3f32ec20",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Wagering",
+      "original_sha256": "450685de048168f347739f132c3f768179245dda9f7105345f915792d35e305f",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Theft",
+      "original_sha256": "9a13e9b697164673247d5c6abfd1b12650bfba7b7770c16d5256d41a80c303f4",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Cheating",
+      "original_sha256": "dd82a5b34e412bfa70474832a12f2395feea62a43376fa95e2d97b6c65b43952",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "Game Play Errors",
+      "original_sha256": "09e45249b3499d02cc59f0d394f08dd59939b6d7be8573d185b6a5473c4fdb8a",
+      "section": "Gameplay errors"
+    },
+    {
+      "note": "Tournament Errors",
+      "original_sha256": "f6cc28bb28fce7594abe90b49a754d0be0635a12c48e850f21086341358c77d3",
+      "section": "Tournament errors"
+    },
+    {
+      "note": "Unsporting Conduct",
+      "original_sha256": "180f1ea9433274e2ff94cd0d476f2ce60ff20bd771b15018bf908d9d63bba387",
+      "section": "Unsporting conduct"
+    },
+    {
+      "note": "General Conduct Obligations",
+      "original_sha256": "8289fa2352790f0fdb2b111849afd7b69ad23f55b638eeb2e23c9c3337f6a3ed",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Disciplinary Unsporting Conduct",
+      "original_sha256": "013c7f18228e331c13f9939918b94647caf7b38ce6412629c994847afe611a9a",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Disciplinary Cheating",
+      "original_sha256": "e6d2e01d9b8e06212d9a1ffe5b2572678d22fb28bbca73efc1d0e874aa359fee",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Unauthorized Communications",
+      "original_sha256": "87bde9cda579995b9b6ca628534f6ec2ec93b22df464e8b8bc7872531d4b6986",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Derogatory Statements and Hateful Acts",
+      "original_sha256": "823a8383272d99286203e8c0ab16d5ff4321b37506f054076e6efe8748f1f552",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Vulgar or Provocative Conduct",
+      "original_sha256": "0b9511403954f9b7ae1218b9c607a7b33bb7a773931fcd653b2a84f4d31a4538",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Harassment",
+      "original_sha256": "d1aa2a9516ff22d8bf7543e79c692d3ac35b1711af6d01b3a5c98fecb33a45bb",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Bullying and Abuse",
+      "original_sha256": "52bd3f0b2f7babbd761978e673eb352d77673b731f9d31c9bf92c3f37e9cea9f",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Credible Threats",
+      "original_sha256": "7d4af6db5abc1174cc3f541a847d240cd10294758bbf6e2b38b1ef7e2a4847ba",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Match-fixing and Manipulation",
+      "original_sha256": "67ced8bdec674b9d16e6ee9303059775ffb9ff201a8ea3dc5b6e7de773990ae6",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Retaliation",
+      "original_sha256": "975b197f1beb37cc973ab07e982d9bf0014e34e17f2a55b5b0778addc5468de6",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Violations of Law",
+      "original_sha256": "e25df91f5b59dcedc7225e3db347ac83deb23848f3a2420ca68571f5311d1816",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Violations of Riot Games Terms of Service",
+      "original_sha256": "6eb78abd31996c6444db3dad0d62b0e1916f2b1a4ae0a615d36d5c476fc734f4",
+      "section": "Disciplinary Code"
+    },
+    {
+      "note": "Enforcement and Penalties",
+      "original_sha256": "b32e55911f8263101cb1fac7a09941f24c20e43ebfb5b98e278743de796f48eb",
+      "section": null
+    },
+    {
+      "note": "Judging and Remedies",
+      "original_sha256": "1a66f6da9abd1cdd9a660fce0cd4cc7278902f746dd561bdb597de9c0e910fb3",
+      "section": null
+    },
+    {
+      "note": "Penalties",
+      "original_sha256": "c80a4a476cc607f0bff07e464adeaad6a9e77f155b43dbb5284cb931c4853536",
+      "section": null
+    },
+    {
+      "note": "Disciplinary Code",
+      "original_sha256": "0237bfbee6c3a1916fdfad0bdb588887e254af564bc3e50006c03adfb267fc5a",
+      "section": null
+    }
+  ],
+  "pdf_pages": 1,
+  "page_size": "A4 portrait",
+  "body_font_pt": 8.5,
+  "column_heights_pt": [
+    487.99999999999994,
+    579.8
+  ],
+  "footer_bottom_pt": 63.44724409448828,
+  "errors": []
+}

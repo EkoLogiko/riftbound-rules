@@ -1,0 +1,55 @@
+{
+  "parser": "Mermaid",
+  "diagrams": [
+    {
+      "note": "Turn Phases Flowchart",
+      "heading": "Turn sequence",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "eec64769d23932f2a2748d8a04677b9a91f4ba6ea4127ad09fb0f8a0a6266b90"
+    },
+    {
+      "note": "Trigger Timing Flowchart",
+      "heading": "Trigger condition check",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "f2e98017f9381e586bbe1c55c75e6faf3c814ec2faf070deb2fddfd00c668667"
+    },
+    {
+      "note": "Playing a Card Flowchart",
+      "heading": "Playing a card",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "3f16c7de368c724e462c0523f9693a6763dd1c7189abc3323ac87c187b0bf370"
+    },
+    {
+      "note": "Playing or Activating Abilities Flowchart",
+      "heading": "Playing or activating abilities",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "c37b5ada8335e715ecc4d0c80433d83d2269c8a50a2d3e809d14fb9201747a11"
+    },
+    {
+      "note": "Combat Flowchart",
+      "heading": "Combat sequence",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "7b511c2a7773beb034dff7b306b8642022f3589c995d023dbbd86afc5fab626f"
+    },
+    {
+      "note": "Showdown Flowchart",
+      "heading": "Showdown loop",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "98d762b1ad3d3018ce0eb0d5f33d6a4ea4f010c85913101e4de39266791119a6"
+    },
+    {
+      "note": "Game Setup Flowchart",
+      "heading": "Game setup sequence",
+      "valid": true,
+      "diagram_type": "flowchart-v2",
+      "sha256": "872fc073c1f9129a39204f0dc1e4483cd6ef4064856081d3cc9d504a51f89672"
+    }
+  ],
+  "errors": []
+}

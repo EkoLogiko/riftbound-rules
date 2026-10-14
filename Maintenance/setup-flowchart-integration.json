@@ -1,0 +1,143 @@
+{
+  "note": "Game Setup Flowchart",
+  "path": "Flowcharts/Game Setup Flowchart.md",
+  "approved_preview": "game-setup-preview.md",
+  "diagrams_preserved": true,
+  "core_modes": [
+    "1v1 (Duel)",
+    "1v1 (Match)",
+    "FFA3 (Skirmish)",
+    "FFA4 (War)",
+    "2v2 (Magma Chamber)"
+  ],
+  "quick_link_notes": [
+    {
+      "note": "1v1 (Duel)",
+      "section": "Game setup sequence",
+      "original_sha256": "b271c24d191450e4709cb4acf34a74a901e198cfdb8842f42e8c3b8e92053471"
+    },
+    {
+      "note": "1v1 (Match)",
+      "section": "Game setup sequence",
+      "original_sha256": "97db35582df4b223009ba545e0dad89cd459bd66966f07846b4025a4a948109f"
+    },
+    {
+      "note": "2v2 (Magma Chamber)",
+      "section": "Game setup sequence",
+      "original_sha256": "6ea7143fd45e53a9ab37dc5d8ee25f273831b4893c6941a94c22706ae6270cf9"
+    },
+    {
+      "note": "2v2 (Tournament)",
+      "section": "Tournament adjustments",
+      "original_sha256": "ceb6c0c7032816dd228f6be8159560343629c4de2868ff17fe5c45aa63f26e9e"
+    },
+    {
+      "note": "Battlefield Zone",
+      "section": "Game setup sequence",
+      "original_sha256": "0651ff1a3a89e200552ecd20a729d10610f704a0f8d623a3338fe2bb0601c63e"
+    },
+    {
+      "note": "Champion Legend",
+      "section": "Game setup sequence",
+      "original_sha256": "7e32b3ce2a51da284600faaadde157a7cc68cd9c0ceef7955f418d9cb5876239"
+    },
+    {
+      "note": "Chosen Champion",
+      "section": "Game setup sequence",
+      "original_sha256": "dc21ad4168a795e8f25b61eebc58aaa6428515cac803feec288714c9c8a7fb8a"
+    },
+    {
+      "note": "FFA3 (Skirmish)",
+      "section": "Game setup sequence",
+      "original_sha256": "02e943b40f63cd2bbdb970922a9c60596ef17e00fa592f7e9eaff5f8b94ceb27"
+    },
+    {
+      "note": "FFA4 (War)",
+      "section": "Game setup sequence",
+      "original_sha256": "f50df9eb9e5a21f0501fcd1967e6c5ec43b9da41cfebc5195eb601d83e6df026"
+    },
+    {
+      "note": "Main Deck",
+      "section": "Game setup sequence",
+      "original_sha256": "5627eb53bfc6fb04205873a6e9f0a36af5ba7911c83f669577f26517e84eb38d"
+    },
+    {
+      "note": "Modes of Play",
+      "section": "Game setup sequence",
+      "original_sha256": "bd424f00207c56cce02c955ff1000b09603723d18af2fc3854dbac97524761a7"
+    },
+    {
+      "note": "Play First Rule",
+      "section": "Tournament adjustments",
+      "original_sha256": "0e094f6581f4172d9a81018c40914b95e4f6d8d1e5a6974ad1e7269a53bcefb0"
+    },
+    {
+      "note": "Rune Deck",
+      "section": "Game setup sequence",
+      "original_sha256": "03bce5625e9a2ba075acc941210190462806f24ddf24c4d966c7351e8c48eb78"
+    },
+    {
+      "note": "Sanctioned Modes",
+      "section": "Game setup sequence",
+      "original_sha256": "73b7bccbb7cb777211ca68135c16e16b155799c8f7c369c07b813528632c0a0b"
+    },
+    {
+      "note": "Setup",
+      "section": "Game setup sequence",
+      "original_sha256": "d1dac33eda50ddaa85f953501dda2c00abd0967ff187d807f040b4f1499b0600"
+    },
+    {
+      "note": "Setup Process",
+      "section": "Game setup sequence",
+      "original_sha256": "bace7780b5f10c0c03944a3ff71d737b67e9730877adb0b630783d28da149a04"
+    },
+    {
+      "note": "Shuffling",
+      "section": "Tournament adjustments",
+      "original_sha256": "35159d692a9d3252f5b25e919c2fbddb89c63c552f76eb92ec2d939ae2de53e5"
+    },
+    {
+      "note": "Sideboard",
+      "section": "Tournament adjustments",
+      "original_sha256": "98a8fc5f7732b8a0c1511367268e277ee5d072bcea733c7c4b83315c24f0bef7"
+    },
+    {
+      "note": "Start of Game Procedure",
+      "section": "Tournament adjustments",
+      "original_sha256": "8099eb4edeb9d104cc26ab05f07ed209c6cb03b7a3960f9307f1129b15201d38"
+    },
+    {
+      "note": "Start of Match Procedure",
+      "section": "Tournament adjustments",
+      "original_sha256": "e1f88c67cb601d9f59bcdfe831868261782aa718cadda8a3aeeec762cf403b9e"
+    },
+    {
+      "note": "Tournament Modes",
+      "section": "Tournament adjustments",
+      "original_sha256": "a8df334d100227b4a205857f17b102294e33bb85bd6d1b6d9e9b8d67d97d9513"
+    }
+  ],
+  "source_rules": [
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "115",
+    "116",
+    "117",
+    "118",
+    "417",
+    "487",
+    "488",
+    "489",
+    "490",
+    "491"
+  ],
+  "tournament_source_rules": [
+    "403",
+    "406",
+    "407",
+    "603.7"
+  ]
+}

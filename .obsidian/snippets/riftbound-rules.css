@@ -1,0 +1,35 @@
+/* Riftbound reference icons: no plugin or JavaScript needed. */
+.riftbound-rules .metadata-container { display: none; }
+.riftbound-rules .rule-ref { position: relative; width: fit-content; margin: -.45em 0 .9em; font-size: .8em; color: var(--text-muted); }
+.riftbound-rules .rule-ref summary { list-style: none; cursor: pointer; padding: .15em .35em; border-radius: .4em; min-width: 1.7em; min-height: 1.7em; text-align: center; }
+.riftbound-rules .rule-ref summary::-webkit-details-marker { display: none; }
+.riftbound-rules .rule-ref summary:hover, .riftbound-rules .rule-ref summary:focus-visible { background: var(--background-modifier-hover); color: var(--text-normal); }
+.riftbound-rules .rule-tooltip { padding: .65em .85em; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: .5em; color: var(--text-normal); max-width: min(28em, 80vw); }
+@media (hover: hover) {
+ .riftbound-rules .rule-ref:not([open]) summary:hover::after {
+  content: attr(title); position: absolute; z-index: 20; top: 100%; left: 0; width: max-content; max-width: min(28em, 80vw); padding: .65em .85em; border: 1px solid var(--background-modifier-border); border-radius: .5em; background: var(--background-primary); color: var(--text-normal); box-shadow: 0 4px 16px #0002; pointer-events: none;
+ }
+}
+.riftbound-rules .markdown-embed { border-left: 2px solid var(--background-modifier-border); padding-left: .7em; margin-bottom: .5em; }
+.riftbound-rules .markdown-embed-title, .riftbound-rules .markdown-embed-link { display: none; }
+.riftbound-rules li { margin-top: .3em; }
+.riftbound-rules h3 { margin-top: 1.5em; }
+
+/* infraction-a4:start */
+.riftbound-infraction-sheet table { width: 100%; }
+.riftbound-infraction-sheet th:nth-child(2), .riftbound-infraction-sheet td:nth-child(2) { text-align: center; }
+@media print {
+ @page riftbound-infractions { size: A4 portrait; margin: 7mm; }
+ .riftbound-infraction-sheet { page: riftbound-infractions; }
+ .riftbound-infraction-sheet .markdown-preview-sizer { max-width: none !important; column-count: 2; column-gap: 5mm; font-family: "Arial Narrow", Arial, sans-serif; font-size: 8.5pt; line-height: 1.08; }
+ .riftbound-infraction-sheet .markdown-preview-sizer > div { display: contents; }
+ .riftbound-infraction-sheet h1 { column-span: all; font-size: 17pt; margin: 0 0 3mm; }
+ .riftbound-infraction-sheet h2 { break-after: avoid; font-size: 10pt; margin: 2mm 0 1mm; }
+ .riftbound-infraction-sheet p { margin: 1mm 0; }
+ .riftbound-infraction-sheet table { font-size: 8.5pt; margin: 1mm 0; break-inside: avoid; }
+ .riftbound-infraction-sheet th, .riftbound-infraction-sheet td { padding: 1.2pt 2pt; border-color: #b0b0b0; }
+ .riftbound-infraction-sheet a { color: black; text-decoration: none; }
+ .riftbound-infraction-sheet .rule-ref, .riftbound-infraction-sheet span[aria-label="Source rule"], .riftbound-infraction-sheet .metadata-container { display: none !important; }
+ .riftbound-infraction-sheet h2[data-heading="Disciplinary Code"], .riftbound-infraction-sheet h2[data-heading="Disciplinary Code"] ~ * { column-span: all; }
+}
+/* infraction-a4:end */

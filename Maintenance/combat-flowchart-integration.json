@@ -1,0 +1,215 @@
+{
+  "notes": [
+    "Combat Flowchart",
+    "Showdown Flowchart"
+  ],
+  "approved_preview": "showdown-combat-concise-preview.md",
+  "diagrams_preserved": true,
+  "quick_link_notes": [
+    {
+      "note": "Action (Keyword)",
+      "original_sha256": "d4785cd121aa15a5acaeebb674ea877d01af063dac9d281dc8e369a0183690e9"
+    },
+    {
+      "note": "Ambush",
+      "original_sha256": "91c1e3b1afcda0fa1aa23fe40c14a83799f380eeabf2226faa3997c9e396dcf1"
+    },
+    {
+      "note": "Assault",
+      "original_sha256": "055e3098c14393019f14164fd9cabeb42ae92511c42d9b3f029c86a80a873234"
+    },
+    {
+      "note": "Attack Trigger",
+      "original_sha256": "52e5ce61c85039986c1b46f1916209f2bea0afa2f3c451a3ecbe876dd213cf99"
+    },
+    {
+      "note": "Attacker",
+      "original_sha256": "599aaf4974f15e22908aa611df275444c1236ae9920561437eac5b7fbd34cefc"
+    },
+    {
+      "note": "Backline",
+      "original_sha256": "6d125447f84eb962118b9cc40d4e578ea0a661870c7342abff9437a90a9949bd"
+    },
+    {
+      "note": "Chain",
+      "original_sha256": "10f8503aa95f1e987464717eb65498718328b88a1f6a94992ac0ae6b1a520805"
+    },
+    {
+      "note": "Chains and Showdowns",
+      "original_sha256": "44b5aab69b56ebabf550f8c9173cffd8120939e2d7603c34f822a552b42e4673"
+    },
+    {
+      "note": "Cleanups",
+      "original_sha256": "13e5d1aa70da8acb427218f5803ceceb469389daee9ffad590d6429521b5f317"
+    },
+    {
+      "note": "Combat",
+      "original_sha256": "df13985ed94a9e8c614ebf1504e1057d61b3694ac71f553e2fdfc9c536cd671e"
+    },
+    {
+      "note": "Combat Procedure",
+      "original_sha256": "04b2a60d8589654f500b8d17e54ad7c634598ce5e574397eb222c94a509467dd"
+    },
+    {
+      "note": "Conquer",
+      "original_sha256": "7c59d4b7f85696065cd493f9be9298507321b7ae4882550c975520d3b678d63c"
+    },
+    {
+      "note": "Conquer Effect",
+      "original_sha256": "1c0f827b8a2dbb45ae0c900ab62952e9ac348584732eed25a3ea34d5150eb9fd"
+    },
+    {
+      "note": "Contested",
+      "original_sha256": "69742c38c6746cf5e61f358a268d2d53c80665402aab7960d26da23ec3290f33"
+    },
+    {
+      "note": "Deathknell",
+      "original_sha256": "4c07cf276185a86c3de1d9456cdd7d6584c7e4769887fdc0a435808b698ec76a"
+    },
+    {
+      "note": "Defend Trigger",
+      "original_sha256": "87d23768bcc0679d2a0cf8110d945915408da980e669a8e69978eefe62140a5d"
+    },
+    {
+      "note": "Defender",
+      "original_sha256": "802161ed5514ba2656556a3420efa629424fafe146731cd6533422fa08acae91"
+    },
+    {
+      "note": "Deflect",
+      "original_sha256": "0c8e627e10d9064777ad4897d438a450de5a14bf95657ca3b1d8a58421db83bf"
+    },
+    {
+      "note": "Disarm",
+      "original_sha256": "056ade9045edb53c4c423c43496a26e5b8a7df805789c1190ebc5ed986850fbe"
+    },
+    {
+      "note": "Finalized Chain Item",
+      "original_sha256": "563a7c31cbf68b36ea6e13f16c393d2b71dbb601bf575702ee8fe90c7d17af08"
+    },
+    {
+      "note": "Focus",
+      "original_sha256": "c373d12329c64fa0d892f074b620d162867fa0db8eff52c824fd705f7435b20c"
+    },
+    {
+      "note": "HOT FEPR",
+      "original_sha256": "6a252c3338cab8fc79e0c6f93d8f7861129391eb35a1d496d280852f8900b927"
+    },
+    {
+      "note": "Handling Tasks and Resolving Chain Items",
+      "original_sha256": "58cc422ebd18920cc6e26afa4628a3650f151ed6bc5ff4f3f41419f96ff25fbc"
+    },
+    {
+      "note": "Hunt",
+      "original_sha256": "ba6f78c09a8f4f263550aa2997505aef695aa3ec5437185addeee77b969384f9"
+    },
+    {
+      "note": "In Combat",
+      "original_sha256": "808726ca2e835b8c498cfec556a59c185af34016cb316595a86afcfc58b138fe"
+    },
+    {
+      "note": "Pending Chain Item",
+      "original_sha256": "46c9ba0c62a286290cfa5449867a50142f03d33608886816d4b542eee909f0ad"
+    },
+    {
+      "note": "Priority",
+      "original_sha256": "be0183e4e8e876b7ec82992df7d0ede780181d041b14b9c919ee3f65d09efde9"
+    },
+    {
+      "note": "Priority and Focus",
+      "original_sha256": "fbae44e85438caeacff048bf26c68b785ec69457f482716e52758bc7d1da98a6"
+    },
+    {
+      "note": "Quick-Draw",
+      "original_sha256": "389dadf9a71dad78ec0388808388b4cb226d3d64c0e5ca7cde3dace9685cbabf"
+    },
+    {
+      "note": "Reaction (Keyword)",
+      "original_sha256": "c944848ce2b4cb9fdf4a24055842bf0380cee0f939401cd765d23efab0a8987a"
+    },
+    {
+      "note": "Recalls",
+      "original_sha256": "414116eeab6124647d4464ddcb48ed74c588c19344b35392aa999aed922145b6"
+    },
+    {
+      "note": "Shield",
+      "original_sha256": "b339cad581864eb1d60a1b00d3bbbdbc332d82ca4d00711281be38f00fdf0de1"
+    },
+    {
+      "note": "Showdown Closed State",
+      "original_sha256": "f2cbed1b3c0e873f5e3e3e1e9722b66a7900609d066b6022e2a8f44e4631e182"
+    },
+    {
+      "note": "Showdown Open State",
+      "original_sha256": "ace3a84ae1d4d4f532ece1e203e00263e3c9cc158a9daa98d7b58aeb943d4885"
+    },
+    {
+      "note": "Showdown State",
+      "original_sha256": "04e14c783b9c3e520094781b3e41457ce25ccc13e1c5220cebe17d6c4c16a011"
+    },
+    {
+      "note": "Showdowns",
+      "original_sha256": "29e2e7fafde7a84dc660c9e0ef9427438b765a0aad53555cd25dd03e22d6076c"
+    },
+    {
+      "note": "Stun",
+      "original_sha256": "def1537990748667c89ce34e47c8ec8263f5ed57de772c70a05e1cc8e9fa90ca"
+    },
+    {
+      "note": "Tank",
+      "original_sha256": "0389a1997dcb7e6929697b348a05aba857a1664084b68f5febb3026f90c48b01"
+    },
+    {
+      "note": "Triggered Ability",
+      "original_sha256": "5e5f89401880c4a0283d9bd5754fc87b9b103f227b10fa9bd2c2eee887ab5505"
+    }
+  ],
+  "keyword_rows": 10,
+  "source_rules": {
+    "Combat Flowchart": [
+      "319",
+      "320",
+      "321",
+      "322",
+      "323",
+      "334",
+      "340",
+      "383.2.c",
+      "383.3.d",
+      "383.4.e",
+      "383.4.f",
+      "462",
+      "463",
+      "466",
+      "467",
+      "468",
+      "807",
+      "808",
+      "809",
+      "814",
+      "815",
+      "819",
+      "822",
+      "823",
+      "826",
+      "831",
+      "424"
+    ],
+    "Showdown Flowchart": [
+      "319",
+      "320",
+      "323.11",
+      "323.13",
+      "334",
+      "340",
+      "344",
+      "345",
+      "346",
+      "347",
+      "348",
+      "466.2.c.1",
+      "471",
+      "806",
+      "813"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pdf_pages": 142,
+  "independent_pdf_entries": 2494,
+  "mapped_entries": 2494,
+  "notes": 277,
+  "links": 12901,
+  "block_embeds": 490,
+  "compared_prose_entries": 2279,
+  "errors": [],
+  "reference_corrections": [
+    {
+      "source_reference": "103.2.a",
+      "linked_entry": "103.3.a",
+      "reason": "Source label says Chosen Champion, but the referenced entry describes the Legend Zone."
+    },
+    {
+      "source_reference": "103.2.d",
+      "linked_entry": "103.3.d",
+      "reason": "Source references an absent entry; Signature cards are described here."
+    },
+    {
+      "source_reference": "103.3",
+      "linked_entry": "103.4",
+      "reason": "Source label says Rune Deck, but the referenced entry describes the Main Deck."
+    },
+    {
+      "source_reference": "398",
+      "linked_entry": "399",
+      "reason": "Source says Playing or Activating Abilities but references the preceding Linked Ability rule."
+    },
+    {
+      "source_reference": "103.2.d",
+      "linked_entry": "103.3.d",
+      "reason": "Source references an absent entry; Signature cards are described here."
+    },
+    {
+      "source_reference": "103.2.d",
+      "linked_entry": "103.3.d",
+      "reason": "Source references an absent entry; Signature cards are described here."
+    },
+    {
+      "source_reference": "103.2.a",
+      "linked_entry": "103.3.a",
+      "reason": "Source label says Chosen Champion, but the referenced entry describes the Legend Zone."
+    },
+    {
+      "source_reference": "103.2.a",
+      "linked_entry": "103.3.a",
+      "reason": "Source label says Chosen Champion, but the referenced entry describes the Legend Zone."
+    },
+    {
+      "source_reference": "103.2.a",
+      "linked_entry": "103.3.a",
+      "reason": "Source label says Chosen Champion, but the referenced entry describes the Legend Zone."
+    },
+    {
+      "source_reference": "103.2.a",
+      "linked_entry": "103.3.a",
+      "reason": "Source label says Chosen Champion, but the referenced entry describes the Legend Zone."
+    },
+    {
+      "source_reference": "103.2.d",
+      "linked_entry": "103.3.d",
+      "reason": "Source references an absent entry; Signature cards are described here."
+    },
+    {
+      "source_reference": "103.2.d",
+      "linked_entry": "103.3.d",
+      "reason": "Source references an absent entry; Signature cards are described here."
+    }
+  ]
+}

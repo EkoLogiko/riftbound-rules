@@ -1,0 +1,89 @@
+{
+  "core_notes_indexed": 272,
+  "tournament_notes_indexed": 140,
+  "game_action_notes_under_actions": 33,
+  "core_sections": {
+    "Principles and foundations": 6,
+    "Deck construction and setup": 10,
+    "Spaces and zones": 16,
+    "Cards and game objects": 29,
+    "Ownership, control, and information": 12,
+    "Resources and costs": 14,
+    "Turns and timing": 28,
+    "Chains, showdowns, and cleanups": 10,
+    "Playing cards and making choices": 9,
+    "Abilities and effects": 26,
+    "Actions": 45,
+    "Combat and modifiers": 17,
+    "Scoring, winning, and modes": 14,
+    "Special terms": 6,
+    "Keywords": 30
+  },
+  "tournament_sections": {
+    "Principles and eligibility": 3,
+    "Competition types, structures, and levels": 18,
+    "People and responsibilities": 7,
+    "Decks, registration, and equipment": 10,
+    "Matches and tournament procedures": 12,
+    "Tracking, notes, and presentation": 6,
+    "Communication and gameplay decisions": 12,
+    "Competition formats and deck building": 12,
+    "Judging, penalties, and remedies": 11,
+    "Game play errors": 17,
+    "Tournament errors": 10,
+    "Unsporting conduct and disciplinary rules": 22
+  },
+  "indexes": [
+    "General Index",
+    "Core Rules Index",
+    "Tournament Rules Index",
+    "Concept Index"
+  ],
+  "visual_guides": [
+    {
+      "note": "Turn Phases Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 16
+    },
+    {
+      "note": "Trigger Timing Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 24
+    },
+    {
+      "note": "Playing a Card Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 18
+    },
+    {
+      "note": "Playing or Activating Abilities Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 17
+    },
+    {
+      "note": "Combat Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 33
+    },
+    {
+      "note": "Showdown Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 21
+    },
+    {
+      "note": "Game Setup Flowchart",
+      "diagrams": 1,
+      "quick_link_notes": 21
+    }
+  ],
+  "quick_references": [
+    {
+      "note": "Infraction Quick Reference",
+      "path": "Quick Reference/Infraction Quick Reference.md",
+      "print_pdf": "Quick Reference/Infraction Quick Reference.pdf",
+      "infraction_rows": 32,
+      "disciplinary_categories": 13,
+      "quick_link_notes": 52
+    }
+  ]
+}
